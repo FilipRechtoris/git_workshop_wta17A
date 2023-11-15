@@ -1,2 +1,7 @@
+<<<<<<< Updated upstream
 maria nagyova
 filip rechtoris
+=======
+Maja
+filip rechtoris
+>>>>>>> Stashed changes
