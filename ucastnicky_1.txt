@@ -1,2 +1,15 @@
+<<<<<<< HEAD
 Iryna Haiova
 filip rechtoris
+=======
+<<<<<<< HEAD
+Andrea Horvatova
+Andrea Horvatovaa
+Filip Rechtoris
+=======
+dajana balazikova
+zuzana caputova
+Janka Behrova
+filip rechtoris
+>>>>>>> 40feb16f3c097d7de51cae7e9d85746ec10bd3e3
+>>>>>>> 193c7ce0c9543bb9a70442270155523c0fd2ecf7
