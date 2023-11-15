@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 nikola hnatova
 filip rechtoris
 =======
@@ -6,3 +7,9 @@ nicolette forr
 zuzana bacova
 nikola hnatova
 >>>>>>> e234eb223547a012f2c9290b99de2c689fc2c2d7
+=======
+nicolette forr
+Vlasta
+zuzana bacova
+filip rechtoris
+>>>>>>> a2a47791b7299a75b01c7b858959f51b689bdb97
