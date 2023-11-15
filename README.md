@@ -6,3 +6,4 @@ V rámci workshopu rozhodne pokryjeme nasledovné príkazy:
 * git add / commit
 * git pull
 * git push
+* git conflict 
