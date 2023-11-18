@@ -5,3 +5,5 @@ V rámci workshopu rozhodne pokryjeme nasledovné príkazy:
 * git clone 
 * git add / commit
 * git pull
+* git push
+* git conflict 
