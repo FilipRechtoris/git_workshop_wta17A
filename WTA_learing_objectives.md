@@ -15,11 +15,21 @@
 6. Tesovanie závisí od kontextu.
 7. Falošná neprítomnosť defektov.
 
+**Omyl, defekt, bug**
+
+- OMYL- ľudská činnosť, ktorá vedie k nesprávnemu alebo neočakávanému výsledku;
+- DEFEKT (BUG) - problém v kóde spôsobený predchádzajúcim omylom;
+- ZLYHANIE - výsledok činnosti chybného softvéru alebo iného vonkajšieho zlyhania
 
 
 
 # Session based testing 
+
+*Exploratory testing* - je jeden z prístupov testovaniu, kedy sa súbežne tester učí ako aplikácia funguje, navrhuje vhodné testy a paralelne robí exekúciu.
+
 # Jira and Bug
+
+
 # Manažment testovania 
 # Modely vývoja software-u 
 **Waterfall**
@@ -33,4 +43,7 @@
 # Nástroje testovania 
 # Testovanie API 
 # SQL
+
+**Primárny kľúč (Primary key)** - jeho úlohou je jednoznačne identifikovať  každý záznam v tabuľke. Nesmie mať hodnotu null. 
+
 
