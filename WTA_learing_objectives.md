@@ -22,6 +22,12 @@
 # Jira and Bug
 # Manažment testovania 
 # Modely vývoja software-u 
+**Waterfall**
+- sekvenčný model vývoja softvéru
+- vznikol v 70. rokoch
+- skladá sa z fáz, ktoré nasledujú jedna po druhej, nie je možné sa vrátiť späť
+- testovanie prichádza príliš neskoro, čím sa môžu zvýšiť náklady (princíp včasného testovania)
+- v súčastnosti sa používa pre malé projekty, kde je veľmi detailná špecifikácia/dokumentácia
 # Techniky tvorby testov
 # HTML, CSS, JavaScript 
 # Nástroje testovania 
