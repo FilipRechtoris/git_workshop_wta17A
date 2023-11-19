@@ -51,6 +51,9 @@ je kontrolovaný Exploratory testing.
 
 Základné pojmy - MISSION, CHARTER, SESSION, REPORT, DRBRIEF
 
+![](https://blog.qatestlab.com/wp-content/uploads/2011/02/exploratory-testing-process.jpg)
+
+
 # Jira and Bug 
 je nástroj na riadenie projektu.
 > Medzi základné funkcie patrí manažovanie úloh ako vytváranie a prideľovanie úloh ako aj "hlásenie" stavu úloh v reálnom čase a tvorba reportov. 
@@ -88,6 +91,29 @@ Poznáme:
 - skladá sa z fáz, ktoré nasledujú jedna po druhej, nie je možné sa vrátiť späť
 - testovanie prichádza príliš neskoro, čím sa môžu zvýšiť náklady (princíp včasného testovania)
 - v súčastnosti sa používa pre malé projekty, kde je veľmi detailná špecifikácia/dokumentácia
+
+
+[Agilný manifest](https://agilemanifesto.org/iso/sk/manifesto.html)
+
+1. Ľudia a komunikácia sú viacz než procesy a nástroje.
+2. Funkčný sotfvér je viac než vyčerpávajúca dokumentácia.
+
+3. Spolupráca so zákazníkom je viac než dojednávanie zmluvy.
+
+
+4. Radšej reagovať na zmenu než sa držať plánu.
+
+
+**Agilné metodiky a techniky:**
+- Extrémne programovanie
+- Test driven development
+- Behavior driven development
+- DevOps 
+- Lean software development
+- Kanban
+- Scrum 
+
+
 # Techniky tvorby testov
 1./ *techniky založené na špecifikácii* (ak nepoznéme internú štruktúru kódu) - čierna skrinka
 * rozdelenie ekvivalencie
