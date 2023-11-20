@@ -7,3 +7,4 @@ V rámci workshopu rozhodne pokryjeme nasledovné príkazy:
 * git pull
 * git push
 * git conflict 
+* git PR
