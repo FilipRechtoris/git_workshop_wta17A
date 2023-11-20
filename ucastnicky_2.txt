@@ -1,4 +1,6 @@
+<<<<<<< Updated upstream
 maria nagyova
+=======
+Lubica Galbava
+>>>>>>> Stashed changes
 filip rechtoris
-marcela drozdíková
-Maja I
