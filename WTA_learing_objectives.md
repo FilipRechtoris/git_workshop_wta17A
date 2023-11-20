@@ -199,6 +199,12 @@ Prenosové protokoly - HTTP a HTTPS
 
 *HTTP response* - status code + header + body
 
+**Metódy na požiadavky:**
+1. GET
+2. POST
+3. PUT
+4. DELETE
+
 **JSON** dátový formát na prenos dát - {"key":"value"}
 
 **POSTMAN** - nástroj na manuálne a automatické testovanie rozhraní 
