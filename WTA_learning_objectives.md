@@ -240,3 +240,19 @@ je jazyk, resp. štandard pre manažovanie dát v relačných databázach
  
 
 
+<<<<<<< Updated upstream
+=======
+- Typicky prepojené s nástrojmi na kompiláciu a build systému
+1. lekcia - naucili sme sa, preco testovat, aky je rozdiel medzi omylom - defektom - zlyhanim, co je testovanie, ake su vyhody testovania, ake su dosledky nedostatocneho testovania, jednotlive cinnosti a ulohy testovania, povedali sme si o testeroch vs. kvalite, naucili sme sa ciele a 7 principov testovania
+2. lekcia - povedali sme si, ake su typy testov, a to funkcionalne, nefunkcionalne, testovanie podla struktury a testovanie suvisiace so zmenami. Pre kazdy typ sme si vyskusali aj uroven testovania, a to testovanie komponentov, integracne testovanie, systemove testovanie a akceptacne testovanie.
+3. lekcia - pocas tejto lekcie sme si vyskusali session based testing pri 2 skupinovych ulohach, ktory je zakladom exploratory testingu. Pomenovali sme si automatizacne pristupy - automatizacnu zmrzlinu a automatizacnu pyramidu a porovnali sme si ich. Povedali sme si vyhody exploratory testingu a vysvetlili sme si zakladne pojmy session based testingu, ktorymi su mission, charter, session, report, debrief. 
+4. lekcia - pocas tejto hodiny sme sa venovali programu Jira, ktora sluzi na riadenie projektu, vysvetlili sme si jej zakladne funkcie a vytvarali sme rozne issues/bugy priamo v programe, obsahujuce zakladne informacie, vysvetlili sme si rozdiel medzi severitou a prioritou, ukazali sme si zivotny cyklus bugu a riesili ulohy, v ktorych sme si precvicili bugy, filtre, reporty a dashboardy. 
+5. lekcia.- na tejto hodine sme sipovedali zivotny cyklus vyvoja softveru a testovania, spomenuli sme si sekvencne vyvojove modely, iterativne a cyklicke modely, povedali sme si rozdiel medzi iterativnym a inkrementálnym vyvojom, agilny pristup, agilne techniky a metodiky, prebrali sme si scrum a scrum simulaciu. 
+6. lekcia - na hodine manazmentu testovania sme sa venovali planovaniu, vysvetlili sme si manazment testov,  ukazali sme si testovanie v strukture agilneho projektu, ukazali sme si pracu v TestRaily, kde sme robili test runs a exportovali sme reporty
+7. a 8. lekcia - pri technike tvorby testov sme si rozdelili techniky do 3 skupin, a to do technik zalozenych na specifikacii, strukture a skusenostiach. Pri kazdej technike sme si vymenovali rozdelenie jednotlivych testov. Techniky zalozene na specifikacii obsahuju rozdelenie ekvivalencie, analyzu hranicnych hodnot, testovanie rozhodovacich tabuliek, testovanie prechodu stavov, testovanie pripadov pouzitia. techniky zalozene na strukture su testovanie a pokrytie prikazov, testovanie pokrytie rozhodovani, pokrytie podmienok a pokrytie viacnasobnych podmienok. pri testovani zalozenych na skusenostiach hovorime o odhadovani omylov - error guessing a prieskumne testovanie - exploratory testing
+9. lekcia - na tejto lekcii sme si uzrejmili pojmy ako HTML, CSS a Javascript a pisali sme stranku
+10. lekcia - ucili sme sa tu, kde si mozeme manazovat testovanie, na co nam sluzi automatizacia, ako ju vieme vyuzit, vyskusali sme si svoj prvy automatizovany test a pracu s UI
+11. a 12. lekcia - pri vyucbe sme sa naucili, co je SQL, ucili sme sa pisat prikazy, ktore obsahovali zakladne funkcie, a to where, where not, and, and not, or, like, in, select distinct, between, agregacne funkcie- count, max, min, sum, avg, nasledne group bz, order by, having, alias, insert into, update, delete, null a vennove diagramy s cim nasledne suviselo joins. 
+13. a 14. lekcia sa venovala API testingu, kde sme si skusali v postmane pocas oboch hodin vytvarat funkcie a spustat testy. 
+15. hodina sa venovala praci s GIT, pre ktory prave pisem tuto domacu ulohu 
+>>>>>>> Stashed changes
