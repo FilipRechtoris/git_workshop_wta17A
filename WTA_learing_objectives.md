@@ -200,10 +200,10 @@ Prenosové protokoly - HTTP a HTTPS
 *HTTP response* - status code + header + body
 
 **Metódy na požiadavky:**
-1. GET
-2. POST
-3. PUT
-4. DELETE
+1. GET - získanie informácie
+2. POST - odoslanie informácie
+3. PUT - uloženie objektu 
+4. DELETE - zmazanie
 
 **JSON** dátový formát na prenos dát - {"key":"value"}
 
