@@ -238,11 +238,6 @@ je jazyk, resp. štandard pre manažovanie dát v relačných databázach
 *Príkazy* - SELECT, WHERE, LIKE, IN, DISTINCT, BETWEEN, agregačné funkcie - COUNT, MAX, MIN, SUM, AVG, GROUP BY, ORDER BY, ALIAS - AS, HAVING, NULL, JOIN  
  
  
-
-
-<<<<<<< Updated upstream
-=======
-- Typicky prepojené s nástrojmi na kompiláciu a build systému
 1. lekcia - preco testovat, rozdiel medzi omylom - defektom - zlyhanim, co je testovanie, ake su vyhody testovania, ake su dosledky nedostatocneho testovania, jednotlive cinnosti a ulohy testovania, testeri vs. kvalite, 7 principov testovania
 2. lekcia - typy testov - funkcionalne, nefunkcionalne, testovanie podla struktury a testovanie suvisiace so zmenami. uroven testovania- testovanie komponentov, integracne testovanie, systemove testovanie a akceptacne testovanie.
 3. lekcia - automatizacne pristupy - automatizacna zmrzlina a automatizacna pyramida, vyhody exploratory testingu, casti sbt- mission, charter, session, report, debrief. 
@@ -255,4 +250,3 @@ je jazyk, resp. štandard pre manažovanie dát v relačných databázach
 11. a 12. lekcia - SQL, prikazy, zakladne funkcie-where, where not, and, and not, or, like, in, select distinct, between, agregacne funkcie- count, max, min, sum, avg, nasledne group bz, order by, having, alias, insert into, update, delete, null a vennove diagramy, joins. 
 13. a 14. lekcia API testing, postman. 
 15. hodina  GIT 
->>>>>>> Stashed changes
