@@ -1,6 +1,12 @@
 <<<<<<< Updated upstream
 maria nagyova
+<<<<<<< HEAD
 =======
 Lubica Galbava
 >>>>>>> Stashed changes
 filip rechtoris
+=======
+filip rechtoris
+marcela drozdíková
+Maja I
+>>>>>>> e0d4d97f9c10e3cec2f125400b6be57fac832743
