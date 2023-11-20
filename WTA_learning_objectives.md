@@ -80,6 +80,13 @@ Proces testovania musí byť plánovaný a riadený a zahŕňa
 * implementáciu a vykonanie testovania 
 * vyhodnotenie kritérií a reportovanie 
 * aktivity uzatvorenia testov 
+
+**Planovanie testovania**
+- definovanie rizik, roli, t.dokumentacie
+- koordinacia t. aktivit v ramci zivotneho cyklu SW
+- harmonogram testovacieho planu: analyza a navrh testovania, impllementacia, vykonanie, vyhodnotenie
+- vyber metrik pre monitoring 
+
  
 **TESTRAIL** - platforma na manažovanie testov, vytváranie testovacích prípadov, exekúcia testovacích prípadov a reportovanie.  
 Je možná integrácia s inými nástrojmi. 
@@ -232,20 +239,4 @@ je jazyk, resp. štandard pre manažovanie dát v relačných databázach
  
  
 
-# GIT
 
-*Version Control System* 
-
- System na spravu verzii
-
-- Parallelne existujú rôzne verzie toho istého programu alebo testov ​
-
-- Git poskytuje kontrolu nad zmenami v kóde ​
-
-- Zmenu môžeme ostestovať individuálne​
-
-- Záloha kódu v prípade problémov​
-
-- Kolaborácia nad open-source programami​
-
-- Typicky prepojené s nástrojmi na kompiláciu a build systému
