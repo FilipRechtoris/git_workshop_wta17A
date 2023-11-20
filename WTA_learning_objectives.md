@@ -232,3 +232,20 @@ je jazyk, resp. štandard pre manažovanie dát v relačných databázach
  
  
 
+# GIT
+
+*Version Control System* 
+
+ System na spravu verzii
+
+- Parallelne existujú rôzne verzie toho istého programu alebo testov ​
+
+- Git poskytuje kontrolu nad zmenami v kóde ​
+
+- Zmenu môžeme ostestovať individuálne​
+
+- Záloha kódu v prípade problémov​
+
+- Kolaborácia nad open-source programami​
+
+- Typicky prepojené s nástrojmi na kompiláciu a build systému
