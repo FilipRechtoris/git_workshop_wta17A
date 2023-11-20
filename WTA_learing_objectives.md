@@ -64,7 +64,6 @@ je nástroj na riadenie projektu.
 
 *Exploratory testing* - je jeden z prístupov testovaniu, kedy sa súbežne tester učí ako aplikácia funguje, navrhuje vhodné testy a paralelne robí exekúciu.
 
-# Jira and Bug
 
 
 # Manažment testovania 
