@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "1e4f05db-59cb-497c-8eb1-1ee8e46196ef",
+		"_postman_id": "49244945-f538-44b2-b245-4af2ff77d497",
 		"name": "PETSTORE",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31174725"
 	},
 	"item": [
 		{
@@ -11,7 +12,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "d00cd2b6-c790-45d1-b765-b82c42c9d559",
 						"exec": [
 							" pm.environment.set('randomLogin', pm.variables.replaceIn('{{$randomFirstName}}'));"
 						],
@@ -21,11 +21,16 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "b93a6f37-58c1-46c7-bd11-5fad3b21d932",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
-							"});"
+							"});\r",
+							"\r",
+							"pm.test(\"Check password\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.password).to.eql('12345');\r",
+							"});\r",
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -69,10 +74,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "8f14c340-ecca-4d76-a088-df4206d9ec34",
 						"exec": [
 							"pm.environment.set(\"userId\", pm.response.json().id);\r",
-							"console.log(pm.response.json().id);"
+							"console.log(pm.response.json().id);\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
 						],
 						"type": "text/javascript"
 					}
@@ -80,7 +88,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "2a65e5be-d933-45ea-8795-7b72beaf6639",
 						"exec": [
 							""
 						],
@@ -114,7 +121,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "dd3cd2a4-67d4-4fbb-b0e1-b8b1734810b3",
 						"exec": [
 							"let messageString = pm.response.json().message\r",
 							"pm.environment.set(\"session\", messageString.split(':')[1])\r",
@@ -165,7 +171,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "635add46-ab72-46b1-8cf3-6f35b5ba23da",
 						"exec": [
 							"pm.environment.set('changedEmail', pm.variables.replaceIn('{{$randomEmail}}'));\r",
 							"console.log(pm.environment.get(\"changedEmail\"))"
@@ -218,7 +223,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "de904ed0-5552-4d71-9334-2c26d780cda6",
 						"exec": [
 							""
 						],
@@ -228,11 +232,14 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "869960e0-5b07-4963-9373-4e1dbd81cba4",
 						"exec": [
 							"pm.test(\"Email is updated\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.email).to.eql(pm.environment.get(\"changedEmail\"));\r",
+							"    pm.expect(jsonData.email).to.eql(pm.environment.get(\"changedEmail\"))\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -303,7 +310,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "de904ed0-5552-4d71-9334-2c26d780cda6",
 						"exec": [
 							""
 						],
@@ -313,7 +319,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "869960e0-5b07-4963-9373-4e1dbd81cba4",
 						"exec": [
 							"pm.test(\"Your test name\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
@@ -365,7 +370,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1a673caa-f17d-4426-a34e-bfaea969fe74",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -375,30 +379,29 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f2137742-0d3f-45c7-b7c6-105318573ff5",
 				"type": "text/javascript",
 				"exec": [
-					""
+					"pm.environment.set(\"variable_key\", \"variable_value\");",
+					"",
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
 				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "303c0be6-8f23-4187-a648-b650a670e3b6",
 			"key": "randomLogin",
 			"value": ""
 		},
 		{
-			"id": "538fea81-4baf-47ea-b89d-a92f4065ca36",
 			"key": "changedEmail",
 			"value": ""
 		},
 		{
-			"id": "1521911c-4846-47f0-afb1-9a1759e65c0f",
 			"key": "userId",
 			"value": ""
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
