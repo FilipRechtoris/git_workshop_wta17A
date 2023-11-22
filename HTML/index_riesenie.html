@@ -147,10 +147,16 @@
       <button type="button" name="button">kúpiť</button>
     </a>
 
+    <button type="button" name="button" onclick="sayMarcela()">Marcela</button>
+    <div style="text-align: center;">
+      <p id="ahojText" style="display: none;">Ahoj</p>
+    </div>
+
+
     <h2 id="clapCounter">0</h2>
     <h3 id="clapDescription">tlesknutí</h3>
     <h3 id="clapAuthor"></h3>
-
+   
   </div>
 
 </body>
@@ -170,8 +176,16 @@
     if (numberOfClaps >= 5) {
       clapDescription.textContent = "tlesknutí";
     }
-
   }
+
+  function sayMarcela() {
+      var ahojText = document.getElementById("ahojText");
+      ahojText.style.display = "block";
+      ahojText.textContent = "Ahoj";
+    }
+  </script>
+</body>
+
 </script>
 
 </html>
