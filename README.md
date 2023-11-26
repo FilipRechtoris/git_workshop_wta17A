@@ -6,5 +6,9 @@ V rámci workshopu rozhodne pokryjeme nasledovné príkazy:
 * git add / commit
 * git pull
 * git push
+<<<<<<< Updated upstream
 * git conflict 
 * git PR
+=======
+* git confli
+>>>>>>> Stashed changes
